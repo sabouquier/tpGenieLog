@@ -11,7 +11,16 @@ class GildedRose {
         return;
     }
 
-   
+    public void agedBrie(int i){
+        if(items[i].quality < 50){
+            items[i].quality++;
+        }
+        items[i].sellIn--;
+        if(items[i].sellIn < 0 && items[i].quality < 50){
+            items[i].quality++;
+        }
+        return;
+    }
 
     public void backstage(int i){
 
@@ -26,9 +35,10 @@ class GildedRose {
             if(items[i].name == "Sulfuras, Hand of Ragnaros"){
                 sulfuras(i);
             }
-           /* if(items[i].name == "Aged Brie"){
+            if(items[i].name == "Aged Brie"){
                 agedBrie(i);
-            }*/
+                return;
+            }
             /*if(items[i].name == "Backstage passes to a TAFKAL80ETC concert") {
                 backstage(i);
             }*/
