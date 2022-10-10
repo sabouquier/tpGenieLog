@@ -21,9 +21,23 @@ class GildedRose {
         }
     }
 
-    public void backstage(int i){
+    /*public void backstage(int i){
+        if(items[i].quality < 50){
+            items[i].quality++;
+            if(items[i].sellIn < 11){
+                items[i].quality++;
+                if(items[i].sellIn < 6 ){
+                    items[i].quality++;
+                }
+            }
+        }
+        items[i].sellIn--;
+        if(items[i].sellIn < 0){
+            items[i].quality = 0;
+        }
+        return;
 
-    }
+    }*/
 
     public void other(int i){
 
@@ -38,8 +52,9 @@ class GildedRose {
                 agedBrie(i);
                 return;
             }
-            /*if(items[i].name == "Backstage passes to a TAFKAL80ETC concert") {
+           /* if(items[i].name == "Backstage passes to a TAFKAL80ETC concert") {
                 backstage(i);
+                return;
             }*/
 
             if (!items[i].name.equals("Aged Brie")
