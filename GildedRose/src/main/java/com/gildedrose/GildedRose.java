@@ -19,7 +19,6 @@ class GildedRose {
         if(items[i].sellIn < 0 && items[i].quality < 50){
             items[i].quality++;
         }
-        return;
     }
 
     public void backstage(int i){
