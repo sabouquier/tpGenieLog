@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.gildedrose.GildedRoseTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-10-11T15:31:17" hostname="vm-etu-sabouquier.local.isima.fr" time="0.043">
+<testsuite name="com.gildedrose.GildedRoseTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-10-11T15:35:20" hostname="vm-etu-sabouquier.local.isima.fr" time="0.045">
   <properties/>
-  <testcase name="Test that the name is unchanged" classname="com.gildedrose.GildedRoseTest" time="0.032"/>
-  <testcase name="Test that quality update if name sulfuras" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="Test that the name is unchanged" classname="com.gildedrose.GildedRoseTest" time="0.025"/>
+  <testcase name="Test that quality update if name sulfuras" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
   <testcase name="Test that backstage quality ++" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="Test that quality change if name aged brie and &lt;50" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="Test that the quality is unchanged" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
-  <testcase name="Test that quality change if name aged brie sellin &lt;0" classname="com.gildedrose.GildedRoseTest" time="0.001"/>
+  <testcase name="Test that quality change if name aged brie sellin &lt;0" classname="com.gildedrose.GildedRoseTest" time="0.0"/>
   <testcase name="Test that the sellIn is changed when name equals Sulfuras.." classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <testcase name="Test that the sellIn is changed when name !equals Sulfuras.." classname="com.gildedrose.GildedRoseTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
